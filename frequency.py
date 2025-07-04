@@ -1,6 +1,5 @@
 mydictionary = {
 
-    'name': 'Tabrin', 
     'Codingal' : 2, 
     'is' : 2, 
     'best' : 2, 
@@ -11,7 +10,7 @@ mydictionary = {
 print()
 
 
-print(mydictionary['name'])  
+print(mydictionary)  
 print()
 
 print(mydictionary)
@@ -20,7 +19,7 @@ print()
 print(len(mydictionary))
 print()
 
-value = 2
+value = int(input("Enter number:"))
 result = 0
 
 
